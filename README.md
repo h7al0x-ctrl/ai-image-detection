@@ -45,7 +45,10 @@ A comparison of three detectors of AI-generated images, focused on **generalisat
 
 ## التشغيل · How to run
 
-افتح [`AI_Image_Detection_Pipeline.ipynb`](AI_Image_Detection_Pipeline.ipynb) على Google Colab (GPU) وشغّل الخلايا بالترتيب. التفاصيل التقنية وترتيب السكربتات في [`TECHNICAL_README.md`](TECHNICAL_README.md).
+- [`AI_Image_Detection_Colab.ipynb`](AI_Image_Detection_Colab.ipynb): الدفتر الكامل **بعد التشغيل**، وفيه مخرجات كل خطوة (فحص التسريب، والتدريب، والجداول، والرسوم) تحت كل خلية.
+- [`AI_Image_Detection_Pipeline.ipynb`](AI_Image_Detection_Pipeline.ipynb): نسخة مختصرة للتشغيل على Google Colab (GPU) من ملفات المستودع.
+
+التفاصيل التقنية وترتيب السكربتات في [`TECHNICAL_README.md`](TECHNICAL_README.md).
 
 ## البيانات · Data
 
