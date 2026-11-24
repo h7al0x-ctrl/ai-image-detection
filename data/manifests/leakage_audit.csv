@@ -1,0 +1,46 @@
+check,dataset,result,value,detail
+count train Real,CIFAKE,PASS,7000,expected 7000
+count train AI-generated,CIFAKE,PASS,7000,expected 7000
+cache size train,CIFAKE,PASS,14000,manifest 14000
+count val Real,CIFAKE,PASS,1000,expected 1000
+count val AI-generated,CIFAKE,PASS,1000,expected 1000
+cache size val,CIFAKE,PASS,2000,manifest 2000
+count test Real,CIFAKE,PASS,2000,expected 2000
+count test AI-generated,CIFAKE,PASS,2000,expected 2000
+cache size test,CIFAKE,PASS,4000,manifest 4000
+label matches generator,CIFAKE,PASS,0,
+required columns non-empty,CIFAKE,PASS,,
+exact duplicates (SHA-256),CIFAKE,PASS,0,
+same file used twice,CIFAKE,PASS,0,
+near duplicates train<->val (pHash<= 2),CIFAKE,PASS,0,
+near duplicates train<->test (pHash<= 2),CIFAKE,PASS,0,
+near duplicates val<->test (pHash<= 2),CIFAKE,PASS,0,
+CIFAKE official split respected,CIFAKE,PASS,0,
+excluded files: exact_duplicate,CIFAKE,PASS,33,documented in data report
+excluded files: near_duplicate,CIFAKE,PASS,2,documented in data report
+count train Real,GenImage,PASS,5000,expected 5000
+count train AI-generated,GenImage,PASS,5000,expected 5000
+cache size train,GenImage,PASS,10000,manifest 10000
+count val Real,GenImage,PASS,1250,expected 1250
+count val AI-generated,GenImage,PASS,1250,expected 1250
+cache size val,GenImage,PASS,2500,manifest 2500
+count test Real,GenImage,PASS,2500,expected 2500
+count test AI-generated,GenImage,PASS,2500,expected 2500
+cache size test,GenImage,PASS,5000,manifest 5000
+label matches generator,GenImage,PASS,0,
+required columns non-empty,GenImage,PASS,,
+exact duplicates (SHA-256),GenImage,PASS,0,
+same file used twice,GenImage,PASS,0,
+near duplicates train<->val (pHash<= 2),GenImage,PASS,0,
+near duplicates train<->test (pHash<= 2),GenImage,PASS,0,
+near duplicates val<->test (pHash<= 2),GenImage,PASS,0,
+held-out generators absent from train/val,GenImage,PASS,0,
+test contains only held-out generators,GenImage,PASS,0,
+generator present: ADM,GenImage,PASS,2500,
+generator present: GLIDE,GenImage,PASS,2500,
+generator present: SD15,GenImage,PASS,2500,
+generator present: VQDM,GenImage,PASS,2500,
+generator present: Wukong,GenImage,PASS,2500,
+generator present: BigGAN,GenImage,PASS,2500,
+generator present: Midjourney,GenImage,PASS,2500,
+CIFAKE/GenImage shared files,both,PASS,0,

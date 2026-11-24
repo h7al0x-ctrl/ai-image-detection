@@ -1,0 +1,16 @@
+{
+  "dataset": "GenImage",
+  "data_root": "/content/data/GenImage",
+  "split_counts": {
+    "train": 10000,
+    "val": 2500,
+    "test": 5000
+  },
+  "status_counts": {
+    "accepted": 17500
+  },
+  "jpeg_quality": 95,
+  "resize_policy": "shorter side -> 224 (bicubic), then center crop 224x224",
+  "phash_max_distance": 2,
+  "seed": 42
+}

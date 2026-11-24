@@ -1,0 +1,15 @@
+experiment,source_group,generator,n_images,n_errors,error_rate
+exp1,CIFAKE,cifake_ai,2000,177,0.0885
+exp1,CIFAKE,real,2000,266,0.133
+exp2,BigGAN,BigGAN,1250,77,0.0616
+exp2,BigGAN,real,1250,363,0.2904
+exp2,Midjourney,Midjourney,1250,447,0.3576
+exp2,Midjourney,real,1250,364,0.2912
+exp3,BigGAN,BigGAN,1250,518,0.4144
+exp3,BigGAN,real,1250,1057,0.8456
+exp3,Midjourney,Midjourney,1250,46,0.0368
+exp3,Midjourney,real,1250,1074,0.8592
+res32,BigGAN,BigGAN,1250,524,0.4192
+res32,BigGAN,real,1250,433,0.3464
+res32,Midjourney,Midjourney,1250,529,0.4232
+res32,Midjourney,real,1250,488,0.3904

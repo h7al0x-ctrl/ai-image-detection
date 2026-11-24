@@ -1,0 +1,4 @@
+model,experiment,condition,subset,model_tag,test_dataset,n,n_real,n_ai,accuracy,precision,recall,f1,roc_auc,balanced_accuracy,specificity,tn,fp,fn,tp,threshold,notes
+svm,exp3,clean,all,cifake,GenImage,5000,2500,2500,0.6264,0.6223857474825717,0.6428,0.6324281778827233,0.65726704,0.6264000000000001,0.61,1525,975,893,1607,0.5,
+svm,exp3,clean,BigGAN,cifake,GenImage,2500,1250,1250,0.6428,0.6325167037861915,0.6816,0.6561417019638044,0.6820672,0.6428,0.604,755,495,398,852,0.5,
+svm,exp3,clean,Midjourney,cifake,GenImage,2500,1250,1250,0.61,0.611336032388664,0.604,0.607645875251509,0.63248256,0.61,0.616,770,480,495,755,0.5,

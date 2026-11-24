@@ -1,0 +1,8 @@
+generator,role,folder,ai_available,real_available,unlabeled_files,ai_required,real_required,extensions,status
+ADM,train_val,/content/data/GenImage/ADM,2500,2188,0,1250,1250,"{'.png': 2500, '.jpg': 2188}",OK (ADM verified: class folders found)
+GLIDE,train_val,/content/data/GenImage/GLIDE,2500,2188,0,1250,1250,"{'.png': 2500, '.jpg': 2188}",OK
+SD15,train_val,/content/data/GenImage/SD15,2500,2188,0,1250,1250,"{'.png': 2500, '.jpg': 2188}",OK
+VQDM,train_val,/content/data/GenImage/VQDM,2500,2187,0,1250,1250,"{'.png': 2500, '.jpg': 2187}",OK
+Wukong,train_val,/content/data/GenImage/Wukong,2500,2187,0,1250,1250,"{'.png': 2500, '.jpg': 2187}",OK
+BigGAN,held_out_test,/content/data/GenImage/BigGAN,2500,2187,0,1250,1250,"{'.png': 2500, '.jpg': 2187}",OK
+Midjourney,held_out_test,/content/data/GenImage/Midjourney,2500,2187,0,1250,1250,"{'.png': 2500, '.jpg': 2187}",OK

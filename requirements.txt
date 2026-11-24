@@ -1,0 +1,22 @@
+# AI-Generated Image Detection - shared requirements
+# Target: Python 3.11 (Google Colab may use a newer Python; the code supports 3.10-3.12+).
+# The exact versions used in every run are saved automatically in logs/environment.json.
+#
+# Local install (CPU):    pip install -r requirements.txt
+# Local install (NVIDIA): install torch/torchvision from https://pytorch.org first, then this file.
+# Google Colab:           torch, torchvision, sklearn, pandas ... are pre-installed;
+#                         only run:  pip install imagehash kagglehub datasets
+
+torch>=2.2,<3
+torchvision>=0.17
+scikit-learn>=1.3
+numpy>=1.26
+pandas>=2.0
+pillow>=10.0
+opencv-python-headless>=4.8
+matplotlib>=3.7
+seaborn>=0.13
+joblib>=1.3
+imagehash>=4.3
+kagglehub>=0.2
+datasets>=2.18

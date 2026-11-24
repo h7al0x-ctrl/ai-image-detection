@@ -1,0 +1,28 @@
+section,item,value
+count,test | CIFAKE | AI-generated,2000.0
+count,test | CIFAKE | Real,2000.0
+count,train | CIFAKE | AI-generated,7000.0
+count,train | CIFAKE | Real,7000.0
+count,val | CIFAKE | AI-generated,1000.0
+count,val | CIFAKE | Real,1000.0
+original format (before preprocessing),AI-generated | JPEG,10000.0
+original format (before preprocessing),Real | JPEG,10000.0
+original size,AI-generated | orig_width | min,32.0
+original size,AI-generated | orig_width | 50%,32.0
+original size,AI-generated | orig_width | max,32.0
+original size,AI-generated | orig_width | mean,32.0
+original size,AI-generated | orig_height | min,32.0
+original size,AI-generated | orig_height | 50%,32.0
+original size,AI-generated | orig_height | max,32.0
+original size,AI-generated | orig_height | mean,32.0
+original size,Real | orig_width | min,32.0
+original size,Real | orig_width | 50%,32.0
+original size,Real | orig_width | max,32.0
+original size,Real | orig_width | mean,32.0
+original size,Real | orig_height | min,32.0
+original size,Real | orig_height | 50%,32.0
+original size,Real | orig_height | max,32.0
+original size,Real | orig_height | mean,32.0
+examined files by status,accepted,20000.0
+examined files by status,exact_duplicate,33.0
+examined files by status,near_duplicate,2.0

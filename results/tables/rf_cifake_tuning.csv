@@ -1,0 +1,5 @@
+params,val_roc_auc,val_accuracy,fit_seconds
+"{""max_depth"": null, ""n_estimators"": 200}",0.9555125,0.889,204.9
+"{""max_depth"": 20, ""n_estimators"": 200}",0.9552,0.8875,184.0
+"{""max_depth"": null, ""n_estimators"": 500}",0.9567599999999999,0.8905,507.2
+"{""max_depth"": 20, ""n_estimators"": 500}",0.9571790000000001,0.8925,461.8

@@ -1,0 +1,44 @@
+section,item,value
+count,test | BigGAN | AI-generated,1250.0
+count,test | BigGAN | Real,1250.0
+count,test | Midjourney | AI-generated,1250.0
+count,test | Midjourney | Real,1250.0
+count,train | ADM | AI-generated,1000.0
+count,train | ADM | Real,1000.0
+count,train | GLIDE | AI-generated,1000.0
+count,train | GLIDE | Real,1000.0
+count,train | SD15 | AI-generated,1000.0
+count,train | SD15 | Real,1000.0
+count,train | VQDM | AI-generated,1000.0
+count,train | VQDM | Real,1000.0
+count,train | Wukong | AI-generated,1000.0
+count,train | Wukong | Real,1000.0
+count,val | ADM | AI-generated,250.0
+count,val | ADM | Real,250.0
+count,val | GLIDE | AI-generated,250.0
+count,val | GLIDE | Real,250.0
+count,val | SD15 | AI-generated,250.0
+count,val | SD15 | Real,250.0
+count,val | VQDM | AI-generated,250.0
+count,val | VQDM | Real,250.0
+count,val | Wukong | AI-generated,250.0
+count,val | Wukong | Real,250.0
+original format (before preprocessing),AI-generated | PNG,8750.0
+original format (before preprocessing),Real | JPEG,8750.0
+original size,AI-generated | orig_width | min,128.0
+original size,AI-generated | orig_width | 50%,256.0
+original size,AI-generated | orig_width | max,1024.0
+original size,AI-generated | orig_width | mean,420.5
+original size,AI-generated | orig_height | min,128.0
+original size,AI-generated | orig_height | 50%,256.0
+original size,AI-generated | orig_height | max,1024.0
+original size,AI-generated | orig_height | mean,420.5
+original size,Real | orig_width | min,34.0
+original size,Real | orig_width | 50%,500.0
+original size,Real | orig_width | max,4272.0
+original size,Real | orig_width | mean,477.3
+original size,Real | orig_height | min,38.0
+original size,Real | orig_height | 50%,375.0
+original size,Real | orig_height | max,3872.0
+original size,Real | orig_height | mean,409.8
+examined files by status,accepted,17500.0

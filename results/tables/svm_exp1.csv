@@ -1,0 +1,2 @@
+model,experiment,condition,subset,model_tag,test_dataset,n,n_real,n_ai,accuracy,precision,recall,f1,roc_auc,balanced_accuracy,specificity,tn,fp,fn,tp,threshold,notes
+svm,exp1,clean,all,cifake,CIFAKE,4000,2000,2000,0.9455,0.9463927855711423,0.9445,0.9454454454454454,0.98833,0.9455,0.9465,1893,107,111,1889,0.5,
